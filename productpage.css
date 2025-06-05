@@ -1,0 +1,148 @@
+.h111 {
+    font-size: 25px;
+}
+
+.safd {
+    display: flex;
+    background-color: rgb(255, 16, 16);
+    justify-content: center;
+
+}
+
+.divd {
+    display: flex;
+    background-color: whitesmoke;
+    height: 100px;
+    justify-content: space-around;
+}
+
+.ull {
+    display: flex;
+
+}
+
+.ull li {
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.ull button {
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 60px;
+    border: none;
+    color: white;
+    margin-top: 10px;
+}
+
+.ull input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.butvt {
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+}
+.dada{
+    display: flex;
+    
+}
+.dada input{
+    display: flex;
+    height: 30px;
+    margin-top: 20px;
+    width: 175px;
+}
+.form-container{
+    width: 400px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.awf{
+    display: flex;
+    background-color: red;
+    justify-content: space-around;
+    color: white;
+}
+.imageg{
+    height: 394px;
+    width: 598px;
+    top: 103px;
+    left: 51px;
+}
+.davav{
+    height: 500px;
+    width: 700px;
+    background-color: whitesmoke;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.kkk{
+    display: flex;
+}
+.davav img{
+    margin-right: 400px;
+    margin-top: 100px;
+}
+.sas{
+    background-color: whitesmoke;
+
+}
+.asa{
+    border: solid black;
+}
+.asaa{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.sasas{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.ll{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.das{
+    width: 270px;
+    height: 250px;
+
+}
+.sasasa{
+    display: flex;
+    margin-top: 250px;
+}
+.sadasda{
+    text-decoration: line-through;
+    display: flex;
+}
+.sasasd{
+    color: red;
+    display: flex;
+}
+.assa{
+    display: flex;
+
+}
+.sadas{
+    display: flex;
+}
