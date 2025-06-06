@@ -1,9 +1,4 @@
 
-*{
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-}
 .h111 {
 font-size: 25px;
 }
@@ -14,6 +9,7 @@ background-color: rgb(255, 16, 16);
 justify-content: center;
 
 }
+
 .divd {
 display: flex;
 background-color: whitesmoke;
@@ -49,27 +45,44 @@ align-items: center;
 justify-content: center;
 text-align: center;
 }
-.awf{
+
+.butvt {
+background-color: red;
+justify-content: center;
+align-items: center;
+height: 40px;
+width: 100px;
+margin-top: 20px;
+border: none;
+color: white;
+}
+
+.dada {
+display: flex;
+
+}
+
+.dada input {
+display: flex;
+height: 30px;
+margin-top: 20px;
+width: 175px;
+}
+
+.form-container {
+width: 400px;
+}
+
+.container {
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.awf {
 display: flex;
 background-color: red;
 justify-content: space-around;
 color: white;
-}
-
-.imageg{
-height: 394px;
-width: 598px;
-
-}
-.sadasda{
-text-decoration: line-through;
-display: flex;
-}
-.sasasd{
-color: red;
-display: flex;
-}
-.juj{
-display: flex;
-justify-content: space-between;
 }

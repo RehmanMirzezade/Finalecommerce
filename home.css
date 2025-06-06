@@ -1,0 +1,166 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h111 {
+    font-size: 25px;
+}
+
+.safd {
+    display: flex;
+    background-color: rgb(255, 16, 16);
+    justify-content: center;
+
+}
+
+.divd {
+    display: flex;
+    background-color: whitesmoke;
+    height: 100px;
+    justify-content: space-around;
+}
+
+.ull {
+    display: flex;
+
+}
+
+.ull li {
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.ull button {
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 60px;
+    border: none;
+    color: white;
+    margin-top: 10px;
+}
+
+.ull input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.butvt {
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+}
+
+.dada {
+    display: flex;
+
+}
+
+.dada input {
+    display: flex;
+    height: 30px;
+    margin-top: 20px;
+    width: 175px;
+}
+
+.form-container {
+    width: 400px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.awf {
+    display: flex;
+    background-color: red;
+    justify-content: space-around;
+    color: white;
+}
+
+.asd {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+}
+
+.asd p {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.asd img {}
+
+.user-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cart-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.product {
+    display: none;
+}
+
+
+.show-product {
+    display: block;
+}
+
+.ayya {
+    margin-bottom: 200px;
+}
+.divpiv{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+
+  .carousel-inner {
+    max-height: 500px;
+  }
+
+  .carousel-inner img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+
+
+      .user-link, .cart-link {
+          text-decoration: none; 
+          color: inherit; 
+      }
+
+      .product {
+          display: none;
+      }
+
+      .fade-in {
+          animation: fadeIn 1s ease-in-out forwards;
+      }
+
+      .show-product {
+          display: block;
+      }
+
