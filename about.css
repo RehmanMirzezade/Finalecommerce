@@ -105,26 +105,7 @@
     margin-top: 100px;
 }
 
-.asd img {}
 
-.user-link {
-    text-decoration: none;
-    color: inherit;
-}
-
-.cart-link {
-    text-decoration: none;
-    color: inherit;
-}
-
-.product {
-    display: none;
-}
-
-
-.show-product {
-    display: block;
-}
 
 .ayya {
     margin-bottom: 200px;
@@ -133,4 +114,9 @@
     display: flex;
     justify-content: space-around;
     margin-bottom: 200px;
+}
+.aa{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
 }

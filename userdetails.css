@@ -81,9 +81,13 @@
     width: 140vh;
     display: flex;
     border: solid white;
-    /* align-items: center; */
     justify-content: center;
     flex-direction: column;
     background-color: whitesmoke;
     margin-left: 100px;
+}
+.aa{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
 }

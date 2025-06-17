@@ -1,0 +1,82 @@
+   .h111 {
+        font-size: 25px;
+    }
+
+    .safd {
+        display: flex;
+        background-color: rgb(255, 16, 16);
+        justify-content: center;
+
+    }
+
+    .divd {
+        display: flex;
+        background-color: whitesmoke;
+        height: 100px;
+        justify-content: space-around;
+    }
+
+    .ull {
+        display: flex;
+
+    }
+
+    .ull li {
+        list-style-type: none;
+        padding: 10px;
+        margin-left: 30px;
+    }
+
+    .ull button {
+        background-color: red;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 60px;
+        border: none;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .ull input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .butvt {
+        background-color: red;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 100px;
+        margin-top: 20px;
+        border: none;
+        color: white;
+    }
+    .dada{
+        display: flex;
+        
+    }
+    .dada input{
+        display: flex;
+        height: 30px;
+        margin-top: 20px;
+        width: 175px;
+    }
+    .form-container{
+        width: 400px;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .awf{
+        display: flex;
+        background-color: red;
+        justify-content: space-around;
+        color: white;
+    }

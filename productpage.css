@@ -73,3 +73,8 @@ display: flex;
 display: flex;
 justify-content: space-between;
 }
+.aa{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}

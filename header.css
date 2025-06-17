@@ -1,9 +1,3 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .h111 {
     font-size: 25px;
 }
@@ -64,6 +58,7 @@ margin-bottom: 0;
     border: none;
     color: white;
      margin-left: 10px;
+     text-decoration: none;
 }
 
 .dada {
@@ -77,80 +72,7 @@ align-items: center;
     width: 175px;
     align-items: center;
 }
-
-.form-container {
-    width: 400px;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.awf {
-    display: flex;
-    background-color: red;
-    justify-content: space-around;
-    color: white;
-}
-
-.asd {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    text-align: center;
-}
-
-.asd p {
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-}
-
-.asd img {}
-
-.user-link {
-    text-decoration: none;
-    color: inherit;
-}
-
-.cart-link {
-    text-decoration: none;
-    color: inherit;
-}
-
-.product {
-    display: none;
-}
-
-
-.show-product {
-    display: block;
-}
-
-.ayya {
-    margin-bottom: 200px;
-}
-.divpiv{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 200px;
-}
-
-  .carousel-inner {
-    max-height: 500px;
-  }
-
-  .carousel-inner img {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-  }
-
-  .aa{
+.aa{
     text-decoration: none;
     color: black;
     margin-left: 15px;

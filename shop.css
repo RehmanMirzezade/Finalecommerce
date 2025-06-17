@@ -1,0 +1,45 @@
+.star{
+    color: yellow;
+
+}
+.category-ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+.category-ul li{
+    list-style-type: none;
+}
+.rate-ul{
+    display: flex;
+    flex-direction: column;
+}
+.rate-ul i{
+    list-style-type: none
+}
+.awf{
+display: flex;
+background-color: red;
+justify-content: space-around;
+color: white;
+}
+.main-div{
+    display:flex ;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.add-to-cart-button{
+    width: 250px;
+}
+.all-product-button{
+    margin-bottom: 10px;
+}
+.main-div2ci{
+    margin-left: 50px;
+}
+.main-div1ci{
+    margin-left: 100px;
+}
+.main-h3{
+    margin-left: 100px;
+}
