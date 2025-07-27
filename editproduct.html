@@ -135,6 +135,23 @@
     </footer>
   </div>
 
+<script>
+  document.getElementById('createProductBtn').addEventListener('click', function () {
+    const product = {
+      brand: document.getElementById('brand').value,
+      model: document.getElementById('model').value,
+      category: document.getElementById('category').value,
+      description: document.getElementById('description').value,
+      price: document.getElementById('price').value,
+      rating: document.getElementById('rating').value,
+      imageUrl: document.getElementById('imageUrl').value
+    };
+    const products = JSON.parse(localStorage.getItem('products')) || [];
+    products.push(product);
+    localStorage.setItem('products', JSON.stringify(products));
+    window.location.href = "register.product.html";
+  });
+</script>
 </body>
 
 </html>

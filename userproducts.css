@@ -1,0 +1,52 @@
+.awf {
+    display: flex;
+    background-color: red;
+    justify-content: space-around;
+    color: white;
+}
+
+.maindiv {
+    display: flex;
+}
+
+.Mainul {
+    display: flex;
+    list-style-type: none;
+}
+
+.Mainul li {
+    list-style-type: none;
+    margin-left: 25px;
+    color: black;
+}
+
+.Mainul2 {
+    display: flex;
+    list-style-type: none;
+}
+
+.Mainul2 li {
+    list-style-type: none;
+    margin-left: 40px;
+    color: black;
+}
+
+.Mainbutton{
+    display: flex;
+    align-items: center;
+}
+.Mainul3{
+    list-style-type: none;
+    display: flex;
+}
+.Maindiv2{
+    display: flex;
+    margin-left: 15px
+}
+.Maindiv2 button
+{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    height: 40px;
+}
