@@ -1,7 +1,9 @@
 .h111 {
     font-size: 25px;
 }
-
+.s{
+    color: white;
+}
 .safd {
     display: flex;
     background-color: rgb(255, 16, 16);

@@ -1,0 +1,43 @@
+.awf {
+    display: flex;
+    background-color: red;
+    justify-content: space-around;
+    color: white;
+}
+.productul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 20px;
+
+}
+.li1p{
+    margin-right: 800px;
+}
+.li2p{
+    margin-right: 75px;
+}
+.carth2{
+    margin-left: 45px
+}
+.Maindiv1{
+    display: flex;
+} 
+ .Maindiv1 p{
+    margin-left: 15px;
+ }
+ .Maindiv2{
+    display: flex;
+
+ }
+ .Maindiv2 p{
+    margin-left: 15px
+ }
+ .image2{
+    width: 140px;
+    height: 105px;
+    margin-left: 50px;
+ }
+ .buttonn{
+    display: flex;
+    margin-left: 65px;
+ }
