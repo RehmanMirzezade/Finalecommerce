@@ -24,7 +24,12 @@
     display: flex;
     list-style-type: none;
 }
-
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
 .Mainul2 li {
     list-style-type: none;
     margin-left: 40px;

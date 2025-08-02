@@ -45,17 +45,6 @@
     text-align: center;
 }
 
-.butvt {
-    background-color: red;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 100px;
-    margin-top: 20px;
-    border: none;
-    color: white;
-}
-
 .dada {
     display: flex;
 
@@ -64,7 +53,6 @@
 .dada input {
     display: flex;
     height: 30px;
-    margin-top: 20px;
     width: 175px;
 }
 

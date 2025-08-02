@@ -8,67 +8,81 @@
     <link rel="stylesheet" href="./cart.css">
     <link rel="stylesheet" href="./header.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/713124af73.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
     <header>
-        <div>
-            <div class="safd">
-                <p class="s">Summer sale for all swim Suits and free express delivery -OFF 50% <a
-                        style="color: white ; " href="#">Shopnow</a></p>
-            </div>
-            <div class="divd">
-                <ul class="ull">
-                    <h1 class="h111">E-commerce</h1>
-                    <a class="aa" href="./home.html">Home</a>
-                    <a class="aa" href="./contact.html">Contact</a>
-                    <a class="aa" href="./about.html">About</a>
-                    <a class="aa" href="./index.html">Sign up</a>
-                    <a style="text-decoration: none; margin-left: 20px;" class="btn btn-danger"
-                        href="./shop.html">Shop</a>
+      <div class="safd">
+        <p class="s">Summer sale for all swim Suits and free express delivery -OFF 50% <a style="color: white ; "
+            href="#">Shopnow</a></p>
+      </div>
+      <div class="divd">
+        <ul class="ull">
+          <h1 class="h111">E-commerce</h1>
+          <a class="aa" href="./home.html">Home</a>
+          <a class="aa" href="./contact.html">Contact</a>
+          <a class="aa" href="./about.html">About</a>
+          <a class="aa" href="./index.html">Sign up</a>
+          <a style="text-decoration: none; margin-left: 20px;" class="btn btn-danger" href="./shop.html">Shop</a>
+        </ul>
+        <div class="dada">
+          <div class="show">
+            <input class="form-control" type="text" placeholder="What are u looking for?">
+            <a href="./cart.html" class="icon"><i class="fa-solid fa-cart-shopping "></i></a>
+             <a href="./userdetails.html" class="icon"> <i style="color: black;" class="fa-solid fa-user "> </i>
+              <span id="username">Rehman</span></a>
+          </div>
 
-                </ul>
-                <div class="dada"> <input class="form-control" type="text" placeholder="What are u looking for?">
-                    <i style="margin-left: 20px; margin-top: 10px;" class="fa-solid fa-magnifying-glass"></i>
 
-                    <a class="butvt btn btn-danger" href="./login.html">log in</a>
-
-                </div>
-            </div>
+          <a id="loginBtn" class="butvt btn btn-danger" href="./login.html">log in</a>
+          <a id="logoutBtn" class="butvt btn btn-danger" href="./home.html">log out</a>
         </div>
+      </div>
     </header>
-    <main>
-        <h2 class="carth2">Cart</h2>
-        <div>
-            <div>
-                <ul class="productul">
-                    <li class="li1p">Product</li>
-                    <li class="li2p">Price</li>
-                    <li class="li2p">Quantity</li>
-                    <li class="li2p">Subtotal</li>
-                </ul>
-            </div>
-            <div class="Maindiv1">
-                <p><img style="width: 140px; height: 115px;margin-left: 50px;"
-                        src="https://pyxis.nymag.com/v1/imgs/bb0/eed/6358d4c5bd77144e979582eab417e32207-hanes-white-tagless.jpg"
-                        alt="">Hanes Hanes Cotton T-shirt</p>
-                <p style="margin-left: 500px;">19.99$</p>
-                <p style="margin-left: 90px;">1</p>
-                <p style="margin-left: 110px;">19.99$</p> <button style="margin-left: 50px;"
-                    class="btn btn-danger">Remove</button>
-            </div>
-            <div class="Maindiv2">
-                <p><img class="image2" src="https://avatars.mds.yandex.net/i?id=5d97160dddd827ebfbe96727aa1c3f34_l-10624025-images-thumbs&n=13"
-                        alt="">Nike Nike Running Shoes</p>
-                <p style="margin-left: 500px;">89.99$</p>
-                <p style="margin-left: 90px;">1</p>
-                <p style="margin-left: 110px;">89.99$</p>
-                <button class="btn btn-danger buttonn">Remove</button>
-            </div>
-            <div></div>
-        </div>
-    </main>
+  <main class="container mt-5">
+  <h2 class="carth2 mb-4">Cart</h2>
+
+  <table class="table table-bordered align-middle text-center">
+    <thead class="table-dark">
+      <tr>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="cart-body">
+      <tr>
+        <td class="text-start d-flex align-items-center gap-3">
+          <img src="https://pyxis.nymag.com/v1/imgs/bb0/eed/6358d4c5bd77144e979582eab417e32207-hanes-white-tagless.jpg" alt="" width="100" height="80">
+          <span>Hanes Cotton T-shirt</span>
+        </td>
+        <td>$19.99</td>
+        <td>1</td>
+        <td>$19.99</td>
+        <td>
+          <button class="btn btn-danger">Remove</button>
+        </td>
+      </tr>
+      <tr>
+        <td class="text-start d-flex align-items-center gap-3">
+          <img src="https://avatars.mds.yandex.net/i?id=5d97160dddd827ebfbe96727aa1c3f34_l-10624025-images-thumbs&n=13" alt="" width="100" height="80">
+          <span>Nike Running Shoes</span>
+        </td>
+        <td>$89.99</td>
+        <td>1</td>
+        <td>$89.99</td>
+        <td>
+          <button class="btn btn-danger">Remove</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</main>
+
     <footer>
         <div class="awf">
             <div>
@@ -105,6 +119,7 @@
             </div>
         </div>
     </footer>
+    <script src="./header.js"></script>
 </body>
 
 </html>

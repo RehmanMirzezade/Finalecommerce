@@ -14,27 +14,30 @@
 
 <body>
     <header>
-        <div>
-            <div class="safd">
-                <p class="s">Summer sale for all swim Suits and free express delivery -OFF 50% <a
-                        style="color: white ; " href="#">Shopnow</a></p>
-            </div>
-            <div class="divd">
-                <ul class="ull">
-                    <h1 class="h111">E-commerce</h1>
-                    <a class="aa" href="./home.html">Home</a>
-                    <a class="aa" href="./contact.html">Contact</a>
-                    <a class="aa" href="./about.html">About</a>
-                    <a class="aa" href="./index.html">Sign up</a>
-                    <a style="text-decoration: none; margin-left: 20px;" class="btn btn-danger"
-                        href="./shop.html">Shop</a>
-
-                </ul>
-                <div class="dada"> <input class="form-control" type="text" placeholder="What are u looking for?">
-                    <i style="margin-left: 20px; margin-top: 10px;" class="fa-solid fa-magnifying-glass"></i>
-                    <a class="butvt btn btn-danger" href="./login.html">log in</a>
-
+        <div class="safd">
+            <p class="s">Summer sale for all swim Suits and free express delivery -OFF 50% <a style="color: white ; "
+                    href="#">Shopnow</a></p>
+        </div>
+        <div class="divd">
+            <ul class="ull">
+                <h1 class="h111">E-commerce</h1>
+                <a class="aa" href="./home.html">Home</a>
+                <a class="aa" href="./contact.html">Contact</a>
+                <a class="aa" href="./about.html">About</a>
+                <a class="aa" href="./index.html">Sign up</a>
+                <a style="text-decoration: none; margin-left: 20px;" class="btn btn-danger" href="./shop.html">Shop</a>
+            </ul>
+            <div class="dada">
+                <div class="show">
+                    <input class="form-control" type="text" placeholder="What are u looking for?">
+                    <a href="./cart.html" class="icon"><i class="fa-solid fa-cart-shopping "></i></a>
+                    <a href="./userdetails.html" class="icon"> <i style="color: black;" class="fa-solid fa-user "> </i>
+                        <span id="username">Rehman</span></a>
                 </div>
+
+
+                <a id="loginBtn" class="butvt btn btn-danger" href="./login.html">log in</a>
+                <a id="logoutBtn" class="butvt btn btn-danger" href="./home.html">log out</a>
             </div>
         </div>
     </header>
@@ -49,10 +52,6 @@
                 <input style="margin-left:25px;" class="form-control" type="search" placeholder="search">
                 <ul class="category-ul">
                     <h3>Category</h3>
-                    <li class="category-li">Clothing</li>
-                    <li class="category-li">Footwear</li>
-                    <li class="category-li">Accessories</li>
-                    <li class="category-li">Tablets</li>
                 </ul>
                 <ul class="rate-ul">
                     <h3>Rate</h3>
@@ -75,15 +74,9 @@
                         <option selected>Sort by</option>
                         <option>Hanes Hanes Cotton T-shirt</option>
                     </select>
-                    <img style="height: 225px; width: 250px;"
-                        src="https://pyxis.nymag.com/v1/imgs/bb0/eed/6358d4c5bd77144e979582eab417e32207-hanes-white-tagless.jpg"
-                        alt="">
-                    <p>Hanes Hanes Cotton T-shirt</p>
-                    <h5 style="color: rgb(255, 100, 100);">19.99$</h5>
-                    <p><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i
-                            class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i
-                            class="fa-solid fa-star star"></i>(62)</p>
-                    <button class="btn btn-dark add-to-cart-button">add to cart</button>
+                    <div class="products">
+                        
+                    </div>
                 </div>
 
 
@@ -128,6 +121,8 @@
             </div>
         </div>
     </footer>
+    <script src="./header.js"></script>
+    <script src="./shop.js"></script>
 </body>
 
 </html>

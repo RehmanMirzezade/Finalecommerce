@@ -1,15 +1,17 @@
 .h111 {
     font-size: 25px;
 }
-.s{
+
+.s {
     color: white;
 }
+
 .safd {
     display: flex;
     background-color: rgb(255, 16, 16);
     justify-content: center;
 
-align-items: center;
+    align-items: center;
 }
 
 .divd {
@@ -23,7 +25,7 @@ align-items: center;
 .ull {
     display: flex;
     align-items: center;
-margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .ull li {
@@ -48,24 +50,14 @@ margin-bottom: 0;
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+
 }
 
-.butvt {
-    background-color: red;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 100px;
-    border: none;
-    color: white;
-     margin-left: 10px;
-     text-decoration: none;
-}
+
 
 .dada {
     display: flex;
-align-items: center;
+    align-items: center;
 }
 
 .dada input {
@@ -74,8 +66,28 @@ align-items: center;
     width: 175px;
     align-items: center;
 }
-.aa{
+
+.aa {
     text-decoration: none;
     color: black;
     margin-left: 15px;
+}
+
+.icon {
+    margin: 0 5px;
+    color: black;
+    border: 2px solid rgba(82, 81, 81, 0.515);
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#username {
+    color: black;
+    margin-left: 5px;
+}
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

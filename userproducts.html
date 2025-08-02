@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,96 +9,102 @@
     <link rel="stylesheet" href="./userproducts.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/713124af73.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./header.css">
 </head>
 
 <body>
     <div>
-       <header>
-            <div>
-                <div class="safd">
-                    <p class="s">Summer sale for all swim Suits and free express delivery -OFF 50% <a
-                            style="color: white ; " href="#">Shopnow</a></p>
-                </div>
-                <div class="divd">
-                    <ul class="ull">
-                        <h1 class="h111">E-commerce</h1>
-                        <a class="aa" href="./home.html">Home</a>
-                        <a class="aa" href="./contact.html">Contact</a>
-                        <a class="aa" href="./about.html">About</a>
-                        <a class="aa" href="./index.html">Sign up</a>
-                        <a style="text-decoration: none; margin-left: 20px;" class="btn btn-danger"
-                            href="./shop.html">Shop</a>
-
-                    </ul>
-                    <div class="dada"> <input class="form-control" type="text" placeholder="What are u looking for?">
-                        <i style="margin-left: 20px; margin-top: 10px;" class="fa-solid fa-magnifying-glass"></i>
-
-                        <a class="butvt btn btn-danger" href="./login.html">log in</a>
-
+        <header>
+            <div class="safd">
+                <p class="s">Summer sale for all swim Suits and free express delivery -OFF 50% <a
+                        style="color: white ; " href="#">Shopnow</a></p>
+            </div>
+            <div class="divd">
+                <ul class="ull">
+                    <h1 class="h111">E-commerce</h1>
+                    <a class="aa" href="./home.html">Home</a>
+                    <a class="aa" href="./contact.html">Contact</a>
+                    <a class="aa" href="./about.html">About</a>
+                    <a class="aa" href="./index.html">Sign up</a>
+                    <a style="text-decoration: none; margin-left: 20px;" class="btn btn-danger"
+                        href="./shop.html">Shop</a>
+                </ul>
+                <div class="dada">
+                    <div class="show">
+                        <input class="form-control" type="text" placeholder="What are u looking for?">
+                        <a href="./cart.html" class="icon"><i class="fa-solid fa-cart-shopping "></i></a>
+                        <a href="./userdetails.html" class="icon"> <i style="color: black;" class="fa-solid fa-user ">
+                            </i>
+                            <span id="username">Rehman</span></a>
                     </div>
+
+
+                    <a id="loginBtn" class="butvt btn btn-danger" href="./login.html">log in</a>
+                    <a id="logoutBtn" class="butvt btn btn-danger" href="./home.html">log out</a>
                 </div>
             </div>
-        </header> 
+        </header>
         <main>
-            <button style="margin-left: 75px; margin-bottom: 10px" class="btn btn-primary new-product-btn">New
-                products</button>
-            <div>
-                <div class="maindiv">
-                    <ul style="margin-left: 30px" class="Mainul">
-                        <li>Id</li>
-                        <li style="margin-left:35px;">Brand</li>
-                        <li style="margin-left: 65px;">Model</li>
-                        <li style="margin-left: 70px;">Category</li>
-                        <li style="margin-left: 50px;">Image</li>
-                    </ul>
-                    <ul style="margin-left: 300px;" class="Mainul">
-                        <li>Mebleg</li>
-                        <li style="margin-left: 85px;">Ranking</li>
-                        <li style="margin-left: 42px;">Emeliyyat</li>
-                    </ul>
-                </div>
-                <div class="Maindiv2">
-                    <ul class="Mainul2">
-                        <li>1</li>
-                        <li>Dell 2222</li>
-                        <li>Dell XPS 13</li>
-                        <li>Laptops</li><img style="width: 200px;height: 160px; margin-left: 55px;"
-                            src="https://microless.com/cdn/products/17e833a8bc16af862c47df1627b8822a-hi.jpg" alt="">
-                    </ul>
-                    <ul class="Mainul3">
-                        <li style="margin-left: 165px;">1196565656$</li>
-                        <li style="margin-left: 50px;">5/5</li><button style="margin-left: 75px;"
-                            class="btn btn-primary Mainbutton">Duzelis
-                            etmek</button><button class="btn btn-danger Mainbutton">Silmek</button>
-                    </ul>
-                </div>
-
-                <div class="Maindiv2">
-                    <ul class="Mainul2">
-                        <li>2</li>
-                        <li>123123</li>
-                        <li>123123</li>
-                        <li>1233123</li><img style="width: 200px;height: 160px;margin-left: 75px;"
-                            src="https://microless.com/cdn/products/17e833a8bc16af862c47df1627b8822a-hi.jpg" alt="">
-                    </ul>
-                    <ul class="Mainul3">
-                        <li style="margin-left: 205px;">12321$</li>
-                        <li style="margin-left: 95px;">2/5</li><button style="margin-left: 75px;"
-                            class="btn btn-primary">Duzelis etmek</button><button class="btn btn-danger">Silmek</button>
-                    </ul>
-                </div>
-            </div>
+            <a href="./editproduct.html" style="margin-left: 75px; margin-bottom: 10px"
+                class="btn btn-primary new-product-btn">New
+                products</a>
 
 
-
-            <div>
-
-            </div>
+           <div class="center">
+             <table class="table align-middle" style="width: 90%;">
+                <thead class="table-light">
+                    <tr>
+                        <th>Id</th>
+                        <th>Brend</th>
+                        <th>Model</th>
+                        <th>Kateqoriya</th>
+                        <th>İzobrazhenie</th>
+                        <th>Qiymət</th>
+                        <th>Reytinq</th>
+                        <th>Operasiyalar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Dell 2222</td>
+                        <td>Dell XPS 13</td>
+                        <td>Laptops</td>
+                        <td>
+                            <img src="https://microless.com/cdn/products/17e833a8bc16af862c47df1627b8822a-hi.jpg"
+                                alt="Dell XPS" style="width: 150px; height: auto; border-radius: 6px;" />
+                        </td>
+                        <td>1196565656 $</td>
+                        <td>5/5</td>
+                        <td>
+                            <button class="btn btn-primary me-2">Redaktə Et</button>
+                            <button class="btn btn-danger">Sil</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>123123</td>
+                        <td>123123</td>
+                        <td>1233123</td>
+                        <td>
+                            <img src="https://microless.com/cdn/products/17e833a8bc16af862c47df1627b8822a-hi.jpg"
+                                alt="Product" style="width: 150px; height: auto; border-radius: 6px;" />
+                        </td>
+                        <td>12321 $</td>
+                        <td>2/5</td>
+                        <td>
+                            <button class="btn btn-primary me-2">Redaktə Et</button>
+                            <button class="btn btn-danger">Sil</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+           </div>
         </main>
 
     </div>
-   <footer>
+    <footer>
         <div class="awf">
             <div>
                 <p>Exclusive </p>
@@ -132,7 +139,8 @@
                 <p>Save 53 with app new user only</p>
             </div>
         </div>
-    </footer> 
+    </footer>
+    <script src="./header.js"></script>
 </body>
 
 </html>
