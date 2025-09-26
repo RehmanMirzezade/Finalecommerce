@@ -45,7 +45,7 @@ form.addEventListener("submit", (event) => {
         })
         .then(data => {
             alert("Product elave edildi")
-            window.location.href = "./shop.html";
+            window.location.href = "./userproducts.html";
         })
 
         .catch(error => {
